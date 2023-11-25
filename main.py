@@ -62,5 +62,12 @@ while guess_count < 3:
     if guess == number:
         print(f"{positive}, you won!")
         break
+else:
+   print(f"{negative}you have lost like others!")
+   time.sleep(1)
+   print(f"I choosed {c}")
+   time.sleep(1)
+   print("Better luck next time")
 
-  
+##Medium mode
+##could be devloped
