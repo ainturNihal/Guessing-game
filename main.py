@@ -93,3 +93,6 @@ else:
   print(f"{negative} you have lost!")
   time.sleep(1)
   print(f"I choosed {number}")
+  
+##Hardest difficulty level
+print(f"{name},this is the hardest difficulty level")
