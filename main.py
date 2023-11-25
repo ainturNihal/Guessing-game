@@ -89,3 +89,7 @@ while guess_count < 3:
     if guess == number:
         print(f"{positive}, you won!")
         break
+else:
+  print(f"{negative} you have lost!")
+  time.sleep(1)
+  print(f"I choosed {number}")
