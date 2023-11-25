@@ -123,3 +123,6 @@ while guess_count <1:
   print(f"{positive} You have won!\nYou are stunningly AWESOME!!!")
   print(f"I choosed {number}")
   break
+else:
+  print(f"{negative}, You have lost!")
+  print(f"I choosed {number}"})
