@@ -82,7 +82,7 @@ print("Ready?")
 time.sleep(1)
 print("Let's go!")
 number = random.randint(0, 100)
-guess_count = 1
+guess_count = 0
 while guess_count < 3:
     guess = int(input("Take a guess: "))
     guess_count += 1
