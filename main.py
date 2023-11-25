@@ -71,3 +71,13 @@ else:
 
 ##Medium mode
 ##could be devloped
+
+print(f"{name}, Lets step it up a bit")
+time.sleep(2)
+print("I am going to choose a number between 0-100")
+time.sleep(2)
+print("And you have to take a guess\nSame rule like last time you get to guess 3 times.")
+time.sleep(2)
+print("Ready?")
+time.sleep(1)
+print("Let's go!")
