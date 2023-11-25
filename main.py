@@ -118,7 +118,7 @@ number = random.randint(0,10000)
 guess_count = 0
 while guess_count <1:
   guess = int(input("Take a guess: "))
-  guess_count +=1:
+  guess_count +=1
   if guess == number
   print(f"{positive} You have won!\nYou are stunningly AWESOME!!!")
   print(f"I choosed {number}")
