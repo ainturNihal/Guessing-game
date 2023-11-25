@@ -81,3 +81,11 @@ time.sleep(2)
 print("Ready?")
 time.sleep(1)
 print("Let's go!")
+number = random.randint(0, 100)
+guess_count = 1
+while guess_count < 3:
+    guess = int(input("Take a guess: "))
+    guess_count += 1
+    if guess == number:
+        print(f"{positive}, you won!")
+        break
